@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreserVidas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base/base.css">
+    <link rel="stylesheet" href="styles/base/variables.css">
+    <link rel="stylesheet" href="styles/layout/header.css">
+    <link rel="stylesheet" href="styles/layout/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <img class="header__icon" src="assets/others/user.png">
+            <span class="header__text">Olá, Jorge Silva</span>
+            <img class="header__logo" src="assets/logo.png">
+        </div>
+    </header>
+    <main>
+        <section class="navigation">
+            <div class="search">
+                <img src="assets/others/search.png">
+                <input type="text" id="search" placeholder="Busca">
+                <img src="assets/others/filter.png">
+            </div>
+        </section>
+
+        <section class="alert">
+            <img class="alert__banner" src="assets/alert.png">
+        </section>
+
+        <section class="menu">
+            <a href="#" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/home.png">
+                <p class="menu__item__text">Lista de abrigos</p>
+            </a>
+            <a href="register.html" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/register.png">
+                <p class="menu__item__text">Registrar local</p>
+            </a>
+            <a href="#" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/cone.png">
+                <p class="menu__item__text">Condições Estradas</p>
+            </a>
+            <a href="#" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/orientation.png">
+                <p class="menu__item__text">Orientações Emergenciais</p>
+            </a>
+            <a href="#" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/defeat.png">
+                <p class="menu__item__text">Defesa Civil</p>
+            </a>
+            <a href="#" class="menu__item">
+                <img class="menu__item__icon" src="assets/icons/climate.png">
+                <p class="menu__item__text">Previsão Climática</p>
+            </a>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252836.21830726723!2d-35.17939461636047!3d-8.043608562540815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1654940763004!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer__nav">
+            <a href="home.html" class="footer__nav__item">
+                <img class="footer__nav__icon" src="assets/icons/footerhome.png">
+                <span class="footer__nav__text">Home</span>
+            </a>
+            <a href="#" class="footer__nav__item">
+                <img class="footer__nav__icon" src="assets/icons/chat.png">
+                <span class="footer__nav__text">Chat</span>
+            </a>
+            <a href="map.html" class="footer__nav__item">
+                <img class="footer__nav__icon" src="assets/icons/maps.png">
+                <span class="footer__nav__text">Mapa</span>
+            </a>
+            <a href="#" class="footer__nav__item">
+                <img class="footer__nav__icon" src="assets/icons/footeralert.png">
+                <span class="footer__nav__text">Alertas</span>
+            </a>
+            <a href="register.html" class="footer__nav__item">
+                <img class="footer__nav__icon" src="assets/icons/footerregister.png">
+                <span class="footer__nav__text">Novo registro</span>
+            </a>
+            <img src="assets/others/menu_option.svg">
+        </nav>
+    </footer>
+</body>
+</html>
