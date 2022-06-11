@@ -1,0 +1,21 @@
+.footer__nav__icon {
+
+}
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        position: fixed;
+        border-top: 1px solid #DBDBDBAA;
+        margin-top: 56px;
+        flex-direction: column;
+        padding: 32px 0 24px 0;
+    }
+
+    .footer__nav__icon:first-child {
+        margin-left: 32px;
+    }
+
+    .footer__nav__item {
+        text-decoration: none;
+    }
+}

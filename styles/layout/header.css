@@ -1,0 +1,29 @@
+@media only screen and (max-width: 480px) {
+    .header {
+        position: absolute;
+        width: 414px;
+        height: 124px;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(180deg, #151F39 2.08%, #26718C 13.02%, #FFFFFF 20.31%);
+    }
+
+    .header__text {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .header__icon {
+        margin-left: 19px;
+        width: 30.83px;
+        height: 30.83px;
+    }
+
+    .header__logo {
+        width: 91px;
+        height: 21px;
+    }
+}
